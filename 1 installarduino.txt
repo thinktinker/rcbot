@@ -1,4 +1,36 @@
-For those who have not installed Arduino, the codes available in this repo have been tested with version 1.6.5.
-You can download it from:
+Set up and Installation Guide
+-----------------------------
+Follow the numbers in sequence within this repository to complete the software installation and set-up of the remote-controlled Arduino Robot. 
 
+Item #1:
+For those who have not installed Arduino, the codes available in this repo have been tested with version 1.6.5.
+It can download it from:
 https://www.arduino.cc/en/Main/OldSoftwareReleases#previous
+
+Item #2:
+The Arduino used for the source code listed here is based on an S4A EDU Controller Arduino Board: 
+https://robosavvy.com/store/dagu-arduino-mini-motor-driver-control-board.html
+
+Refer to the listed item '2 S4Ausbdriver.zip' for the driver and install the correct version for the system that you are using.
+
+Alternatively, you can also refer to the website below to download the driver:
+https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
+
+Item #3:
+'3atcommands.zip' refers you to the Arduino code to set the AT Commands for the Arduino board.
+In this example, we are using the HC-05 zs040 Bluetooth module. 
+
+Be sure to refer to martyncurrey's tutorial (Method 1), to set up the AT Mode for your Arduino's Bluetooth (zs040) module.
+http://www.martyncurrey.com/arduino-with-hc-05-bluetooth-module-at-mode/
+
+Item #4:
+'4softwareserial.zip' sets up the arduino to listen to serial data.
+It is one of the commonly used methods to transmit commands / information from a mobile devlice to the Arduino.
+Do refer to 'Item #3' where the martyncurrey explains how to set up the Arduino board for serial communication.
+
+Also, suggested reading below:
+https://learn.sparkfun.com/tutorials/bluetooth-basics
+https://learn.sparkfun.com/tutorials/serial-communication
+
+Item #5:
+'5PowerBot.zip' sets up the arduino to listen to / receive serial data, which is translated to commands to move the DC motors attached to the Arduino. 
