@@ -1,0 +1,4 @@
+For those who have not installed Arduino, the codes available in this repo have been tested with version 1.6.5.
+You can download it from:
+
+https://www.arduino.cc/en/Main/OldSoftwareReleases#previous
