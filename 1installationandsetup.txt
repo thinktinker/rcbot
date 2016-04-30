@@ -11,7 +11,7 @@ Item #2:
 The Arduino used for the source code listed here is based on an S4A EDU Controller Arduino Board: 
 https://robosavvy.com/store/dagu-arduino-mini-motor-driver-control-board.html
 
-Refer to the listed item '2 S4Ausbdriver.zip' for the driver and install the correct version for the system that you are using.
+Refer to the listed item '2S4Ausbdriver.zip' for the driver and install the correct version for the system that you are using.
 
 Alternatively, you can also refer to the website below to download the driver:
 https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
